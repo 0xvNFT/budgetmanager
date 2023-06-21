@@ -1,0 +1,78 @@
+<resources>
+
+
+    <string name="app_name">C54</string>
+    <!--    Account Nav Bar-->
+    <string name="account">Tài Khoản</string>
+    <string name="history">Lịch Sử</string>
+    <string name="setting">Cài Đặt</string>
+
+    <!--    Account Fragment-->
+    <string name="t_i_kho_n">Tài khoản</string>
+    <string name="t_t_c_">Thông tin cá nhân</string>
+    <string name="m_c_nh">Mã số cơ nhân</string>
+    <string name="m_i_th_ng">Mã số định danh</string>
+
+    <string name="danmuc">Danh Mục</string>
+    <string name="macdinh">Mặc Định</string>
+
+
+    <string name="fsbtn">fsbtn</string>
+    <string name="scndbtn">scndbtn</string>
+    <string name="grpbtn">grpbtn</string>
+    <string name="goalbtn">goalbtn</string>
+    <string name="analyticbtn">analyticbtn</string>
+    <string name="cat1">Ngày</string>
+    <string name="cat2">Tuần</string>
+    <string name="cat3">Tháng</string>
+    <string name="cat4">Năm</string>
+    <string name="n_amp_th_c_u_ng"><![CDATA[Đồ Ăn & Thức Uống]]></string>
+    <string name="du_l_ch">Du Lịch</string>
+    <string name="mua_s_m">Mua Sắm</string>
+    <string name="nh">Nhà</string>
+    <string name="i_l_i">Đi Lại</string>
+    <string name="l_ng">Lương</string>
+    <string name="kh_c">Khác</string>
+
+
+    <string-array name="currencies">
+        <item>VND</item>
+
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>USD</item>
+        <item>DKK</item>
+        <item>PHP</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+        <item>CNY</item>
+
+    </string-array>
+
+    <string-array name="currencies2">
+        <item>USD</item>
+
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>VND</item>
+        <item>PHP</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+        <item>CNY</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ti_nt">TiềnTệ</string>
+    <string name="t_m_ki_m">Tìm kiếm</string>
+    <string name="t_m_ki_mhint">Tìm kiếm</string>
+    <string name="nh_p_v_o_y">Nhập Vào Đây</string>
+    <string name="save">Cứu</string>
+</resources>

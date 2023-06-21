@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_account">
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.example.budgetmanager.ui.accounttab.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.budgetmanager.ui.historytab.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.budgetmanager.ui.settingtab.SettingFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/ngayoneFragment"
+        android:name="com.example.budgetmanager.ui.accounttab.NgayoneFragment"
+        android:label="Tất Cả">
+        <action
+            android:id="@+id/action_accountFragment_to_ngayoneFragment"
+            app:destination="@id/ngayoneFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ngaytwoFragment"
+        android:name="com.example.budgetmanager.ui.accounttab.NgaytwoFragment"
+        android:label="Mặc Định">
+        <action
+            android:id="@+id/action_accountFragment_to_ngaytwoFragment"
+            app:destination="@id/ngaytwoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/danhFragment"
+        android:name="com.example.budgetmanager.ui.settingtab.DanhFragment"
+        android:label="Danh Mục">
+        <action
+            android:id="@+id/action_settingFragment_to_danhFragment"
+            app:destination="@id/danhFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/giaoFragment"
+        android:name="com.example.budgetmanager.ui.settingtab.GiaoFragment"
+        android:label="Giao Dịch Định Kỳ">
+        <action
+            android:id="@+id/action_settingFragment_to_giaoFragment"
+            app:destination="@id/giaoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/thongFragment"
+        android:name="com.example.budgetmanager.ui.settingtab.ThongFragment"
+        android:label="Thông Báo">
+        <action
+            android:id="@+id/action_settingFragment_to_thongFragment"
+            app:destination="@id/thongFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/macFragment"
+        android:name="com.example.budgetmanager.ui.settingtab.MacFragment"
+        android:label="Mặc Định">
+        <action
+            android:id="@+id/action_settingFragment_to_macFragment"
+            app:destination="@id/macFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/congFragment"
+        android:name="com.example.budgetmanager.ui.settingtab.CongFragment"
+        android:label="Công Cụ Chuyển Đổi">
+        <action
+            android:id="@+id/action_settingFragment_to_congFragment"
+            app:destination="@id/congFragment" />
+    </fragment>
+
+</navigation>
